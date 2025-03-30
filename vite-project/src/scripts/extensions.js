@@ -12,6 +12,7 @@ export function getExtension(data) {
 function createExtensionElement(extension) {
   // 1. Cria a estrutura base
   const card = document.createElement("div");
+  // vai servir para mostrar ou não na tela
   card.className = `main__card ${extension.isActive ? "" : "disabled"}`;
 
   // 2. Adiciona a imagem
