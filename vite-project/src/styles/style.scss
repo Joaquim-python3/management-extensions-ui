@@ -10,3 +10,7 @@ Junção de todos os arquivos de estilo
 
 /* Arquivos de Layout */
 @use "./layout/header";
+@use "./layout/main";
+
+/* Arquivos de Componentes */
+@use "./components/card";

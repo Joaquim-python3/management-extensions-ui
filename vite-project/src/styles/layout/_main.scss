@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 90%; /*mesma largura do header*/
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__extensions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
