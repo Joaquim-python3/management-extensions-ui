@@ -2,6 +2,9 @@
 Junção de todos os arquivos de estilo
 */
 
+/* Arquivo de Reset */
+@use "./utils/reset";
+
 /* Arquivo de Variáveis */
 @use "./variables" as *;
 

@@ -1,6 +1,10 @@
+@use "../variables" as *;
+
 .header {
   display: flex;
   width: 90%; /*mesma largura do main*/
   align-items: center;
   justify-content: space-between;
+  background: $neutral-0;
+  margin-bottom: $spacing-3;
 }

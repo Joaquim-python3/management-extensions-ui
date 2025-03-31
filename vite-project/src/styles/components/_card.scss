@@ -1,0 +1,11 @@
+@use "../variables" as *;
+
+.card{
+    width: 400px;
+    background: $neutral-0;
+    margin-bottom: $spacing-3;
+
+    &__top{
+        display: flex;
+    }
+}
