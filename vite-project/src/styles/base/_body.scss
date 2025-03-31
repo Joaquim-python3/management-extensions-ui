@@ -1,11 +1,10 @@
-@use '../variables' as *; // Importa todas as variáveis
+@use "../variables" as *; // Importa todas as variáveis
 
-body{
-    padding: $spacing-6 $spacing-6;
-    font-family: "Noto Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: $gradient-light;
+body {
+  padding: $spacing-6 $spacing-6;
+  font-family: $font-family-base;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $gradient-light;
 }
-
