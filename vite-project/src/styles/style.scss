@@ -1,8 +1,12 @@
 /* 
-Classe principal de estilização
-Junção de todos os arquivos
+Junção de todos os arquivos de estilo
 */
 
-body{
-    font-family: "Noto Sans", sans-serif;
-}
+/* Arquivo de Variáveis */
+@use "./variables" as *;
+
+/* Arquivos de Base */
+@use "./base/body";
+
+/* Arquivos de Layout */
+@use "./layout/header";
