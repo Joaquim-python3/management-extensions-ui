@@ -45,11 +45,14 @@ function createExtensionElement(extension) {
   const footerDiv = document.createElement("div");
   footerDiv.className = "card__footer";
 
-  const status = document.createElement("span");
+  const status = document.createElement("input");
+  status.type = "checkbox";
+  status.id = "card-checkbox";
   status.className = `card__status ${
     extension.isActive ? "active" : "inactive"
   }`;
-  status.textContent = extension.isActive ? "Ativo" : "Inativo";
+
+  status.checked = extension.isActive;
 
   const removeBtn = document.createElement("button");
   removeBtn.className = "card__remove";

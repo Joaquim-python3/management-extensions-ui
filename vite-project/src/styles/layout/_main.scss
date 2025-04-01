@@ -12,9 +12,22 @@
     margin-bottom: $spacing-3;
   }
 
+  &__option {
+    padding: $spacing-1 $spacing-2;
+    font-size: $font-size-base;
+    border: 1px solid $neutral-200;
+    background: $neutral-0;
+    border-radius: $border-radius-lg;
+    box-shadow: $shadow-sm;
+  }
+
   &__extensions {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
+}
+
+.selected {
+  background: $red-400;
 }

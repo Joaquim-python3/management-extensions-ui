@@ -37,17 +37,10 @@
         border: 1px solid $neutral-700;
         background: none;
         font-weight: $font-weight-regular;
+        border-radius: $border-radius-lg;
     }
 
     &__status{
 
     }
-}
-
-.active{
-
-}
-
-.inactive{
-
 }
