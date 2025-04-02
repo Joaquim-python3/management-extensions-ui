@@ -1,46 +1,49 @@
 @use "../variables" as *;
 
-.card{
-    width: 400px;
-    background: $neutral-0;
-    margin-bottom: $spacing-3;
-    padding: $spacing-2;
+.card {
+  width: 400px;
+  background: $neutral-0;
+  margin-bottom: $spacing-3;
+  padding: $spacing-2;
+  border-radius: $border-radius-lg;
+  box-shadow: $shadow-md;
+  flex-wrap: wrap;
+
+  &__top {
+    display: flex;
+    margin-bottom: $spacing-6;
+  }
+
+  &__content {
+    margin-left: $spacing-2;
+  }
+
+  &__name {
+  }
+
+  &__description {
+  }
+
+  &__footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__remove {
+    padding: $spacing-1;
+    border-radius: 10px;
+    border: 1px solid $neutral-700;
+    background: none;
+    font-weight: $font-weight-regular;
     border-radius: $border-radius-lg;
-    box-shadow: $shadow-md;
+  }
 
-    &__top{
-        display: flex;
-        margin-bottom: $spacing-6;
-    }
+  &__status {
+  }
+}
 
-    &__content{
-        margin-left: $spacing-2;
-    }
-
-    &__name{
-
-    }
-
-    &__description{
-
-    }
-
-    &__footer{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    &__remove{
-        padding: $spacing-1;
-        border-radius: 10px;
-        border: 1px solid $neutral-700;
-        background: none;
-        font-weight: $font-weight-regular;
-        border-radius: $border-radius-lg;
-    }
-
-    &__status{
-
-    }
+.selected {
+  background: $red-400;
 }

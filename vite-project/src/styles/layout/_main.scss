@@ -28,6 +28,6 @@
   }
 }
 
-.selected {
-  background: $red-400;
+.main__option:hover {
+  cursor: pointer;
 }

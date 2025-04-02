@@ -12,7 +12,7 @@ export function getExtension(data) {
 function createExtensionElement(extension) {
   // 1. Card principal
   const card = document.createElement("div");
-  card.className = `card`;
+  card.className = `card ${extension.isActive ? 'active' : 'inactive'}`; // Classe de status aqui!
 
   // 2. Topo do card (agora contém logo + conteúdo)
   const topDiv = document.createElement("div");
@@ -48,9 +48,7 @@ function createExtensionElement(extension) {
   const status = document.createElement("input");
   status.type = "checkbox";
   status.id = "card-checkbox";
-  status.className = `card__status ${
-    extension.isActive ? "active" : "inactive"
-  }`;
+  status.className = `card__status`;
 
   status.checked = extension.isActive;
 
