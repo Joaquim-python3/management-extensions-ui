@@ -3,6 +3,7 @@ import "../styles/style.scss";
 import { getData } from "./api";
 import { getExtension } from "./extensions";
 import { filterCard } from "./filter";
+import "./theme";
 
 // Requisição à API
 getData()

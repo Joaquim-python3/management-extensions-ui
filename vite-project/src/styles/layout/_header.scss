@@ -19,3 +19,8 @@
     }
   }
 }
+
+.header__theme img:hover{
+  cursor: pointer;
+  background: $neutral-300;
+}

@@ -22,13 +22,18 @@
   }
 
   &__content {
+    display: flex;
+    flex-direction: column;
     margin-left: $spacing-2;
+    gap: $spacing-1;
   }
 
   &__name {
   }
 
   &__description {
+    font-size: $font-size-base;
+    color: $neutral-600;
   }
 
   &__footer {
@@ -40,7 +45,7 @@
 
   &__remove {
     padding: $spacing-1;
-    border-radius: 10px;
+    border-radius: $border-radius-sm;
     border: 1px solid $neutral-700;
     background: none;
     font-weight: $font-weight-regular;
@@ -53,6 +58,9 @@
 
 .card__remove:hover {
   cursor: pointer;
+  background: $red-400;
+  color: $neutral-0;
+  border: none;
 }
 
 .selected {
