@@ -20,9 +20,9 @@ function createExtensionElement(extension) {
 
   // 2.1 Logo
   const logo = document.createElement("img");
+  logo.className = "card__logo";
   logo.src = extension.logo;
   logo.alt = `${extension.name} logo`;
-  logo.className = "card__logo";
 
   // 2.2 Conteúdo (nome + descrição) - AGORA DENTRO DO TOPO
   const contentDiv = document.createElement("div");
@@ -54,7 +54,7 @@ function createExtensionElement(extension) {
 
   const removeBtn = document.createElement("button");
   removeBtn.className = "card__remove";
-  removeBtn.textContent = "Remover";
+  removeBtn.textContent = "Remove";
 
   footerDiv.append(removeBtn, status);
 

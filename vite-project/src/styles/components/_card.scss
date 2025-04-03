@@ -12,6 +12,13 @@
   &__top {
     display: flex;
     margin-bottom: $spacing-6;
+    height: 70px;
+  }
+
+  &__logo {
+    align-self: flex-start;
+    padding-top: 0;
+    width: 50px;
   }
 
   &__content {
@@ -44,6 +51,11 @@
   }
 }
 
+.card__remove:hover {
+  cursor: pointer;
+}
+
 .selected {
-  background: $red-400;
+  background: $red-700;
+  color: $neutral-0;
 }
