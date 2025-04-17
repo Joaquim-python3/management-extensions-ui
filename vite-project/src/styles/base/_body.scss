@@ -8,3 +8,12 @@ body {
   align-items: center;
   background: $gradient-light;
 }
+
+body.dark {
+  padding: $spacing-6 $spacing-6;
+  font-family: $font-family-base;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: $gradient-dark;
+}

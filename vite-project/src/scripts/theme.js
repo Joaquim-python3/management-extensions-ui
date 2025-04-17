@@ -1,5 +1,5 @@
 const changeElement = document.getElementById("change-theme");
 
-changeElement.addEventListener("click", (event) => {
-  console.log("clicou");
+changeElement.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
 });
