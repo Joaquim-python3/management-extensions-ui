@@ -28,9 +28,6 @@
     gap: $spacing-1;
   }
 
-  &__name {
-  }
-
   &__description {
     font-size: $font-size-base;
     color: $neutral-600;
@@ -51,9 +48,10 @@
     font-weight: $font-weight-regular;
     border-radius: $border-radius-lg;
   }
+}
 
-  &__status {
-  }
+.card.dark {
+  background: $neutral-800;
 }
 
 .card__remove:hover {

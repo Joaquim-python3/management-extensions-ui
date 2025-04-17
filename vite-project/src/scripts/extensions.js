@@ -12,7 +12,7 @@ export function getExtension(data) {
 function createExtensionElement(extension) {
   // 1. Card principal
   const card = document.createElement("div");
-  card.className = `card ${extension.isActive ? 'active' : 'inactive'}`; // Classe de status aqui!
+  card.className = `card ${extension.isActive ? "active" : "inactive"}`; // Classe de status aqui!
 
   // 2. Topo do card (agora contém logo + conteúdo)
   const topDiv = document.createElement("div");

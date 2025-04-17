@@ -28,6 +28,15 @@
   }
 }
 
+.main__title.dark {
+  color: $neutral-0;
+}
+
+.main__option.dark{
+  background: $neutral-700;
+  color: $neutral-0;
+}
+
 .main__option:hover {
   cursor: pointer;
 }
